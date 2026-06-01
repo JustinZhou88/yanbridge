@@ -20,10 +20,18 @@ from fastapi.middleware.cors import CORSMiddleware
 # ---------------------------------------------------------------------------
 # Config (override via environment)
 # ---------------------------------------------------------------------------
+def get_default_device():
+    import torch
+    if torch.backends.mps.is_available():
+        return "mps"
+    if torch.cuda.is_available():
+        return "cuda"
+    return "cpu"
+
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "small")
-WHISPER_DEVICE = os.getenv("WHISPER_DEVICE", "cpu")
+WHISPER_DEVICE = os.getenv("WHISPER_DEVICE", get_default_device())
 WHISPER_DOWNLOAD_ROOT = os.getenv(
-    "WHISPER_DOWNLOAD_ROOT", r"C:\Users\Lenovo\.cache\whisper"
+    "WHISPER_DOWNLOAD_ROOT", os.path.expanduser("~/.cache/whisper")
 )
 WHISPER_LANGUAGE = os.getenv("WHISPER_LANGUAGE")  # e.g. "en", "sw", or unset = auto
 

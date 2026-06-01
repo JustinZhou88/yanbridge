@@ -17,11 +17,27 @@ yanbridge/
 │   ├── main.py
 │   ├── requirements.txt
 │   └── runtime/          # uploads, temp, logs (gitignored)
+├── setup_mac.sh          # Mac auto-setup
+├── run_mac.sh            # Mac auto-run (Backend + UI)
 ├── pubspec.yaml
 └── README.md
 ```
 
-## Backend (Windows PowerShell, Python 3.11)
+## Mac Quick Start (Optimized for Apple Silicon)
+
+1. **Setup**:
+   ```bash
+   chmod +x setup_mac.sh run_mac.sh
+   ./setup_mac.sh
+   ```
+
+2. **Run**:
+   ```bash
+   ./run_mac.sh
+   ```
+   *This will start the Python backend (with MPS acceleration) and launch the Flutter macOS Desktop app.*
+
+## Backend (Manual)
 
 ```powershell
 cd D:\code\code\yanbridge\backend

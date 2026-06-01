@@ -1,6 +1,6 @@
-/// Backend URLs ¡ª change [backendHost] when your PC LAN / hotspot IP changes.
+/// Backend URLs ï¿½ï¿½ change [backendHost] when your PC LAN / hotspot IP changes.
 class ApiConfig {
-  static const String backendHost = '10.100.95.30';
+  static const String backendHost = 'localhost';
 
   static const String baseUrl = 'http://$backendHost:8000';
   static const String uploadUrl = '$baseUrl/upload';
