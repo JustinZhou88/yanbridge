@@ -1,0 +1,536 @@
+[  +92 ms] executing: sysctl hw.optional.arm64
+[  +17 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[  +18 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +2 ms] executing: [/Users/justin/development/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +19 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-04-29 10:03:19 -0700
+[  +21 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +40 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +76 ms] Skipping pub get: version match.
+[  +58 ms] Found plugin record at /Users/justin/.pub-cache/hosted/pub.dev/record-6.2.0/
+[  +11 ms] Found plugin record_windows at /Users/justin/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[   +4 ms] Found plugin record_web at /Users/justin/.pub-cache/hosted/pub.dev/record_web-1.3.0/
+[   +1 ms] Found plugin record_macos at /Users/justin/.pub-cache/hosted/pub.dev/record_macos-1.2.1/
+[   +1 ms] Found plugin record_linux at /Users/justin/.pub-cache/hosted/pub.dev/record_linux-1.3.0/
+[   +1 ms] Found plugin record_ios at /Users/justin/.pub-cache/hosted/pub.dev/record_ios-1.2.0/
+[   +7 ms] Found plugin record_android at /Users/justin/.pub-cache/hosted/pub.dev/record_android-1.5.1/
+[   +3 ms] Found plugin permission_handler at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[   +1 ms] Found plugin permission_handler_windows at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +2 ms] Found plugin permission_handler_html at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +1 ms] Found plugin permission_handler_apple at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[   +1 ms] Found plugin path_provider at /Users/justin/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +2 ms] Found plugin path_provider_linux at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +2 ms] Found plugin path_provider_foundation at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.2/
+[   +1 ms] Found plugin path_provider_android at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.19/
+[  +39 ms] Found plugin record at /Users/justin/.pub-cache/hosted/pub.dev/record-6.2.0/
+[   +1 ms] Found plugin record_windows at /Users/justin/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[   +2 ms] Found plugin record_web at /Users/justin/.pub-cache/hosted/pub.dev/record_web-1.3.0/
+[   +1 ms] Found plugin record_macos at /Users/justin/.pub-cache/hosted/pub.dev/record_macos-1.2.1/
+[        ] Found plugin record_linux at /Users/justin/.pub-cache/hosted/pub.dev/record_linux-1.3.0/
+[        ] Found plugin record_ios at /Users/justin/.pub-cache/hosted/pub.dev/record_ios-1.2.0/
+[        ] Found plugin record_android at /Users/justin/.pub-cache/hosted/pub.dev/record_android-1.5.1/
+[        ] Found plugin permission_handler at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +1 ms] Found plugin permission_handler_html at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /Users/justin/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[   +1 ms] Found plugin path_provider_windows at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +3 ms] Found plugin path_provider_linux at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +2 ms] Found plugin path_provider_foundation at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.2/
+[        ] Found plugin path_provider_android at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.19/
+[  +14 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +13 ms] Found plugin record at /Users/justin/.pub-cache/hosted/pub.dev/record-6.2.0/
+[   +1 ms] Found plugin record_windows at /Users/justin/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[   +1 ms] Found plugin record_web at /Users/justin/.pub-cache/hosted/pub.dev/record_web-1.3.0/
+[        ] Found plugin record_macos at /Users/justin/.pub-cache/hosted/pub.dev/record_macos-1.2.1/
+[        ] Found plugin record_linux at /Users/justin/.pub-cache/hosted/pub.dev/record_linux-1.3.0/
+[        ] Found plugin record_ios at /Users/justin/.pub-cache/hosted/pub.dev/record_ios-1.2.0/
+[        ] Found plugin record_android at /Users/justin/.pub-cache/hosted/pub.dev/record_android-1.5.1/
+[        ] Found plugin permission_handler at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler-11.4.0/
+[        ] Found plugin permission_handler_windows at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[        ] Found plugin permission_handler_html at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/justin/.pub-cache/hosted/pub.dev/permission_handler_android-12.1.0/
+[        ] Found plugin path_provider at /Users/justin/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +1 ms] Found plugin path_provider_linux at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_foundation at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.2/
+[        ] Found plugin path_provider_android at /Users/justin/.pub-cache/hosted/pub.dev/path_provider_android-2.2.19/
+[   +5 ms] Generating /Users/justin/Desktop/yanbridge/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[ +215 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +25 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2025.2, build AI-252.28238.7.2523.14688667. Copyright JetBrains s.r.o., (c) 2000-2025</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2025.2</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-252.28238.7.2523.14688667</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocalNetworkUsageDescription</key>
+           	<string>Android Studio's features, such as SSH and database connectivity, require permissions for accessing the local network and sending broadcast requests.</string>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[  +17 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[  +64 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[  +11 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +3 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +47 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[   +3 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +5 ms] Using gradle from /Users/justin/Desktop/yanbridge/android/gradlew.
+[  +26 ms] LocalFile: '/Users/justin/Desktop/yanbridge/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +1 ms] LocalFile: '/Users/justin/Desktop/yanbridge/android/settings.gradle.kts' provides AGP version: 8.11.1
+[   +6 ms] Running Gradle task 'assembleRelease'...
+[   +1 ms] executing: [/Users/justin/Desktop/yanbridge/android/] /Users/justin/Desktop/yanbridge/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MDBiMGM5MWYwNg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NDJkM2Q3NWE1Ng==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS41 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +322 ms] Initialized native services in: /Users/justin/.gradle/native
+[        ] Initialized jansi services in: /Users/justin/.gradle/native
+[ +100 ms] Removing 0 daemon stop events from registry
+[        ] Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+[ +104 ms] Starting process 'Gradle build daemon'. Working directory: /Users/justin/.gradle/daemon/8.14 Command: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError -Xmx8G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp /Users/justin/.gradle/wrapper/dists/gradle-8.14-all/8mguqc37c200i71ledpgw8n5m/gradle-8.14/lib/gradle-daemon-main-8.14.jar -javaagent:/Users/justin/.gradle/wrapper/dists/gradle-8.14-all/8mguqc37c200i71ledpgw8n5m/gradle-8.14/lib/agents/gradle-instrumentation-agent-8.14.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.14
+[        ] Successfully started process 'Gradle build daemon'
+[ +498 ms] An attempt to start the daemon took 0.532 secs.
+[        ] The client will now receive all logging from the daemon (pid: 27133). The daemon log file: /Users/justin/.gradle/daemon/8.14/daemon-27133.out.log
+[        ] Starting build in new daemon [memory: 8 GiB]
+[ +199 ms] Using 10 worker leases.
+[ +197 ms] Received JVM installation metadata from '/Applications/Android Studio.app/Contents/jbr/Contents/Home': {JAVA_HOME=/Applications/Android Studio.app/Contents/jbr/Contents/Home, JAVA_VERSION=21.0.8, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.8+-14196175-b1038.72, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.8+-14196175-b1038.72, VM_VENDOR=JetBrains s.r.o., OS_ARCH=aarch64}
+[  +98 ms] Watching the file system is configured to be enabled if available
+[        ] Now considering [/Users/justin/Desktop/yanbridge/android] as hierarchies to watch
+[        ] File system watching is active
+[ +202 ms] Starting Build
+[ +501 ms] Invalidating in-memory cache of /Users/justin/.gradle/caches/8.14/fileHashes/fileHashes.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/8.14/fileHashes/resourceHashesCache.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[        ] Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage1) because:
+[        ]   Build cache is disabled
+[+2699 ms] Invalidating in-memory cache of /Users/justin/.gradle/caches/8.14/fileHashes/fileHashes.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/8.14/fileHashes/resourceHashesCache.bin
+[ +199 ms] Now considering [/Users/justin/development/flutter/packages/flutter_tools/gradle, /Users/justin/Desktop/yanbridge/android] as hierarchies to watch
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+2100 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/Users/justin/development/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[ +394 ms] Downloading https://plugins.gradle.org/m2/org/gradle/kotlin/kotlin-dsl/org.gradle.kotlin.kotlin-dsl.gradle.plugin/5.2.0/org.gradle.kotlin.kotlin-dsl.gradle.plugin-5.2.0.pom to /Users/justin/.gradle/.tmp/gradle_download10534029905648529226bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +103 ms] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[+1999 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.9.20/org.jetbrains.kotlin.jvm.gradle.plugin-1.9.20.pom to /Users/justin/.gradle/.tmp/gradle_download12951488262492175660bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +398 ms] Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.9.20/org.jetbrains.kotlin.jvm.gradle.plugin-1.9.20.jar]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[+5100 ms] Downloading https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/5.2.0/gradle-kotlin-dsl-plugins-5.2.0.pom to /Users/justin/.gradle/.tmp/gradle_download7159001560047940975bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +600 ms] Downloading https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/5.2.0/gradle-kotlin-dsl-plugins-5.2.0.module to /Users/justin/.gradle/.tmp/gradle_download5128956828279596704bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +993 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.20/kotlin-gradle-plugin-1.9.20.pom to /Users/justin/.gradle/.tmp/gradle_download9165018604372478128bin
+[ +404 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[  +96 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+2301 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/1.9.20/kotlin-gradle-plugins-bom-1.9.20.pom to /Users/justin/.gradle/.tmp/gradle_download16925767130336461322bin
+[ +599 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/1.9.20/kotlin-gradle-plugins-bom-1.9.20.module to /Users/justin/.gradle/.tmp/gradle_download3893785695804822409bin
+[ +701 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.20/kotlin-gradle-plugin-1.9.20.module to /Users/justin/.gradle/.tmp/gradle_download16411588016902155072bin
+[ +994 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +601 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.0.21/kotlin-gradle-plugin-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download9278532519203639059bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +699 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.0.21/kotlin-gradle-plugins-bom-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download9796337838271393537bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[+1103 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.0.21/kotlin-gradle-plugins-bom-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download12999560076942263308bin
+[ +600 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.0.21/kotlin-gradle-plugin-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download11658390626809533977bin
+[ +899 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+1495 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.0.21/kotlin-assignment-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download15114592800978111874bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +704 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.0.21/kotlin-gradle-plugin-api-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download1680848578561495654bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.0.21/kotlin-assignment-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download17690985855844644654bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +699 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.0.21/kotlin-gradle-plugin-api-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download6449319027118130113bin
+[ +399 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +399 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.0.21/kotlin-sam-with-receiver-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download6044450432732987172bin
+[ +597 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.0.21/kotlin-sam-with-receiver-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download5240742021363068514bin
+[ +899 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +702 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download15796357342167243508bin
+[+1000 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download2576016587013974086bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +598 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.0.21/kotlin-util-klib-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download15915514672286284259bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+1397 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.0.21/kotlin-build-tools-api-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download13765334618113660680bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.0.21/kotlin-gradle-plugin-idea-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download14787565039181272984bin
+[ +101 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.0.21/kotlin-gradle-plugin-idea-proto-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download2057803407237479165bin
+[+1897 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.0.21/kotlin-gradle-plugin-idea-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download10603486857670433126bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.0.21/kotlin-build-statistics-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download7515836310217208977bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.0.21/kotlin-klib-commonizer-api-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download10851661420469817521bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.0.21/kotlin-compiler-embeddable-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download13664145473427651213bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.0.21/kotlin-compiler-runner-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download3719919291936057628bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.0.21/kotlin-gradle-plugin-model-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download4628752192499253695bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +800 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.0.21/kotlin-gradle-plugin-model-2.0.21.module to /Users/justin/.gradle/.tmp/gradle_download12116044098652371947bin
+[ +997 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +601 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.0.21/kotlin-tooling-core-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download7589988871720207490bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.0.21/kotlin-gradle-plugin-annotations-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download16756451288465761247bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.0.21/kotlin-native-utils-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download2175250169131529094bin
+[ +699 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom to /Users/justin/.gradle/.tmp/gradle_download1002977386984938810bin
+[ +696 ms] Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom to /Users/justin/.gradle/.tmp/gradle_download8156673914690519455bin
+[ +703 ms] Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom to /Users/justin/.gradle/.tmp/gradle_download7760013581790850187bin
+[ +598 ms] Downloading https://plugins.gradle.org/m2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom to /Users/justin/.gradle/.tmp/gradle_download14094819187581311897bin
+[ +601 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.pom to /Users/justin/.gradle/.tmp/gradle_download15433376527119924194bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.0.21/kotlin-daemon-client-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download8435468197521402898bin
+[ +598 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.6.4/kotlinx-coroutines-bom-1.6.4.pom to /Users/justin/.gradle/.tmp/gradle_download113144171093836685bin
+[ +699 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.module to /Users/justin/.gradle/.tmp/gradle_download7871631201476349105bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +698 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.0.21/kotlin-util-io-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download17518120132536282967bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +700 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.0.21/kotlin-daemon-embeddable-2.0.21.pom to /Users/justin/.gradle/.tmp/gradle_download4752244996788435492bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20200330/trove4j-1.0.20200330.pom to /Users/justin/.gradle/.tmp/gradle_download14474012585425343390bin
+[ +697 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.0.21/kotlin-gradle-plugin-api-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download6868925799210650086bin
+[   +1 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/2.0.21/kotlin-gradle-plugin-api-2.0.21-gradle85.jar to /Users/justin/.gradle/.tmp/gradle_download17489506527763141063bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-assignment/2.0.21/kotlin-assignment-2.0.21-gradle85.jar to /Users/justin/.gradle/.tmp/gradle_download17850809196849856695bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download13751673499888649875bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/2.0.21/kotlin-gradle-plugin-model-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download15375155400415217412bin
+[ +301 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Downloading https://plugins.gradle.org/m2/org/gradle/kotlin/gradle-kotlin-dsl-plugins/5.2.0/gradle-kotlin-dsl-plugins-5.2.0.jar to /Users/justin/.gradle/.tmp/gradle_download3696630862583415914bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar to /Users/justin/.gradle/.tmp/gradle_download15468145745938252928bin
+[ +694 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/2.0.21/kotlin-gradle-plugin-idea-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download3995773794387903474bin
+[ +304 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/2.0.21/kotlin-gradle-plugin-idea-proto-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download15953857453690353953bin
+[ +197 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-statistics/2.0.21/kotlin-build-statistics-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download17950362435689048992bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +100 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/2.0.21/kotlin-klib-commonizer-api-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download6523504602378655976bin
+[ +100 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/2.0.21/kotlin-gradle-plugin-2.0.21-gradle85.jar to /Users/justin/.gradle/.tmp/gradle_download9082371878953845536bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-sam-with-receiver/2.0.21/kotlin-sam-with-receiver-2.0.21-gradle85.jar to /Users/justin/.gradle/.tmp/gradle_download265457331154285130bin
+[ +299 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +199 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-tools-api/2.0.21/kotlin-build-tools-api-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download828586831001509239bin
+[ +199 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +196 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/2.0.21/kotlin-compiler-runner-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download9509714245592964763bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-native-utils/2.0.21/kotlin-native-utils-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download14249539578164752776bin
+[ +198 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +402 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +899 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/2.0.21/kotlin-gradle-plugin-annotations-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download11751085828988501593bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[  +99 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/2.0.21/kotlin-util-klib-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download4978320949014497066bin
+[ +399 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +397 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-tooling-core/2.0.21/kotlin-tooling-core-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download12127247412187176551bin
+[ +195 ms] Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar to /Users/justin/.gradle/.tmp/gradle_download2773784624901489223bin
+[ +403 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +300 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.0.21/kotlin-compiler-embeddable-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download13144609908877050139bin
+[        ] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/2.0.21/kotlin-daemon-client-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download11947791678778921392bin
+[ +297 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.jar to /Users/justin/.gradle/.tmp/gradle_download18000305806262928568bin
+[ +101 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/2.0.21/kotlin-util-io-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download10293610460326296543bin
+[ +300 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.0.21/kotlin-daemon-embeddable-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download12870485420926970069bin
+[  +96 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20200330/trove4j-1.0.20200330.jar to /Users/justin/.gradle/.tmp/gradle_download14424375217117022167bin
+[+1104 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[   +1 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +596 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[   +3 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[ +895 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+10098 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+22696 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+22503 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[   +1 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin
+[+30897 ms] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/md5-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha256-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha1-checksums.bin
+[        ] Invalidating in-memory cache of /Users/justin/Desktop/yanbridge/android/.gradle/8.14/checksums/sha512-checksums.bin
+[  +99 ms] Invalidating in-memory cache of /Users/justin/.gradle/caches/journal-1/file-access.bin

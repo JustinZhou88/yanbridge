@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/
+.dart_tool/
+backend/runtime/
+*.wav
+*.webm
+*.mp3
+*.mp4
+*.pt
+*.bin
+*.onnx
+*.csv

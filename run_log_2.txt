@@ -1,0 +1,3 @@
+Launching lib/main.dart on Redmi K30 5G in debug mode...
+Running Gradle task 'assembleDebug'...                             46.3s
+Error: Gradle task assembleDebug failed with exit code 143

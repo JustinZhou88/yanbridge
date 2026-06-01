@@ -1,0 +1,2107 @@
+[  +78 ms] executing: sysctl hw.optional.arm64
+[  +15 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[  +17 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +2 ms] executing: [/Users/justin/development/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +12 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-04-29 10:03:19 -0700
+[  +46 ms] executing: sysctl hw.optional.arm64
+[  +12 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +91 ms] Exit code 0 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] Xcode 26.4.1
+           Build version 17E202
+[   +3 ms] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 5
+[   +4 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +36 ms] executing: /Users/justin/Library/Android/sdk/platform-tools/adb devices -l
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 2
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted
+[ +140 ms] /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[  +55 ms] List of devices attached
+           9633625b               device usb:1-1 product:yaap_picasso model:Redmi_K30_5G device:picasso transport_id:1
+[   +6 ms] /Users/justin/Library/Android/sdk/platform-tools/adb -s 9633625b shell getprop
+[  +69 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +21 ms] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 2
+[        ] /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[  +74 ms] ro.hardware = qcom
+[  +78 ms] Initializing file store
+[  +13 ms] Skipping target: gen_localizations
+[   +3 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: /Users/justin/Desktop/yanbridge/.dart_tool/package_config.json,/Users/justin/Desktop/yanbridge/.dart_tool/flutter_build/dart_plugin_registrant.dart}
+[  +15 ms] {
+             "devices" : {
+               "com.apple.CoreSimulator.SimRuntime.iOS-18-5" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.xrOS-2-5" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.iOS-26-2" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.watchOS-11-5" : [
+
+               ]
+             }
+           }
+[  +92 ms] Found plugin record at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record-6.2.0/
+[  +10 ms] Found plugin record_windows at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_windows-1.0.7/
+[   +7 ms] Found plugin record_web at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_web-1.3.0/
+[   +4 ms] Found plugin record_macos at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_macos-1.2.1/
+[   +2 ms] Found plugin record_linux at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_linux-1.3.0/
+[   +3 ms] Found plugin record_ios at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_ios-1.2.0/
+[   +1 ms] Found plugin record_android at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/record_android-1.5.1/
+[   +3 ms] Found plugin permission_handler at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-11.4.0/
+[   +2 ms] Found plugin permission_handler_windows at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_windows-0.2.1/
+[   +3 ms] Found plugin permission_handler_html at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_html-0.1.3+5/
+[        ] {
+             "devices" : {
+               "com.apple.CoreSimulator.SimRuntime.iOS-18-5" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.xrOS-2-5" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.iOS-26-2" : [
+
+               ],
+               "com.apple.CoreSimulator.SimRuntime.watchOS-11-5" : [
+
+               ]
+             }
+           }
+[   +3 ms] Found plugin permission_handler_apple at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_apple-9.4.7/
+[   +4 ms] Found plugin permission_handler_android at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_android-12.1.0/
+[   +3 ms] Found plugin path_provider at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.1.5/
+[   +3 ms] Found plugin path_provider_windows at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.3.0/
+[   +8 ms] Found plugin path_provider_linux at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.2.1/
+[   +4 ms] Found plugin path_provider_foundation at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/path_provider_foundation-2.6.0/
+[  +16 ms] Found plugin path_provider_android at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/path_provider_android-2.3.1/
+[   +1 ms] Found plugin jni_flutter at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/jni_flutter-1.0.1/
+[   +1 ms] Found plugin jni at /Users/justin/.pub-cache/hosted/pub.flutter-io.cn/jni-1.0.0/
+[  +25 ms] Skipping generating dart_plugin_registrant.dart because it is up-to-date.
+[        ] gen_dart_plugin_registrant: Complete
+[   +2 ms] Skipping target: _composite
+[   +2 ms] complete
+[   +4 ms] Launching lib/main.dart on Redmi K30 5G in debug mode...
+[   +5 ms] /Users/justin/development/flutter/bin/cache/dart-sdk/bin/dartaotruntime /Users/justin/development/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /Users/justin/development/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --target=flutter --experimental-emit-debug-metadata -DFLUTTER_VERSION=3.41.9 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=00b0c91f06 -DFLUTTER_ENGINE_REVISION=42d3d75a56 -DFLUTTER_DART_VERSION=3.11.5 --output-dill /var/folders/yc/bpq9vf9x0fggcxj__b693y400000gn/T/flutter_tools.oI8biG/flutter_tool.qpSKtw/app.dill --packages /Users/justin/Desktop/yanbridge/.dart_tool/package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-scheme org-dartlang-root --initialize-from-dill build/89a6598c8854ed031dfc25d83c80860e.cache.dill.track.dill --source file:///Users/justin/Desktop/yanbridge/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///Users/justin/Desktop/yanbridge/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error --enable-experiment=alternative-invalidation-strategy
+[  +17 ms] executing: /Users/justin/Library/Android/sdk/platform-tools/adb -s 9633625b shell -x logcat -v time -t 1
+[  +12 ms] <- compile package:yanbridge/main.dart
+[  +88 ms] --------- beginning of main
+           05-18 15:08:47.221 D/ConnectivityService( 1901): NetReassign [no changes] [c 1] [a 0] [i 6]
+[  +12 ms] executing: /Users/justin/Library/Android/sdk/platform-tools/adb version
+[  +32 ms] Android Debug Bridge version 1.0.41
+           Version 36.0.2-14143358
+           Installed as /Users/justin/Library/Android/sdk/platform-tools/adb
+           Running on Darwin 25.5.0 (x86_64)
+[   +3 ms] executing: /Users/justin/Library/Android/sdk/platform-tools/adb start-server
+[  +33 ms] Building APK
+[ +198 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +17 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2025.2, build AI-252.28238.7.2523.14688667. Copyright JetBrains s.r.o., (c) 2000-2025</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2025.2</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-252.28238.7.2523.14688667</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocalNetworkUsageDescription</key>
+           	<string>Android Studio's features, such as SSH and database connectivity, require permissions for accessing the local network and sending broadcast requests.</string>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[   +9 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[  +53 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[  +10 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +2 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +49 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +3 ms] Version of Java is different than impacted version, no migration attempted.
+[   +3 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +5 ms] Using gradle from /Users/justin/Desktop/yanbridge/android/gradlew.
+[  +29 ms] LocalFile: '/Users/justin/Desktop/yanbridge/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +3 ms] LocalFile: '/Users/justin/Desktop/yanbridge/android/settings.gradle.kts' provides AGP version: 8.11.1
+[   +8 ms] Running Gradle task 'assembleDebug'...
+[   +1 ms] executing: [/Users/justin/Desktop/yanbridge/android/] /Users/justin/Desktop/yanbridge/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm64 -Ptarget=/Users/justin/Desktop/yanbridge/lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MDBiMGM5MWYwNg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NDJkM2Q3NWE1Ng==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS41 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pfilesystem-scheme=org-dartlang-root assembleDebug
+[ +327 ms] Initialized native services in: /Users/justin/.gradle/native
+[   +1 ms] Initialized jansi services in: /Users/justin/.gradle/native
+[ +103 ms] Removing 0 daemon stop events from registry
+[        ] Starting a Gradle Daemon (subsequent builds will be faster)
+[ +103 ms] Starting process 'Gradle build daemon'. Working directory: /Users/justin/.gradle/daemon/8.14 Command: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError -Xmx8G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp /Users/justin/.gradle/wrapper/dists/gradle-8.14-all/8mguqc37c200i71ledpgw8n5m/gradle-8.14/lib/gradle-daemon-main-8.14.jar -javaagent:/Users/justin/.gradle/wrapper/dists/gradle-8.14-all/8mguqc37c200i71ledpgw8n5m/gradle-8.14/lib/agents/gradle-instrumentation-agent-8.14.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.14
+[   +1 ms] Successfully started process 'Gradle build daemon'
+[ +496 ms] An attempt to start the daemon took 0.508 secs.
+[        ] The client will now receive all logging from the daemon (pid: 28271). The daemon log file: /Users/justin/.gradle/daemon/8.14/daemon-28271.out.log
+[        ] Starting build in new daemon [memory: 8 GiB]
+[  +99 ms] Using 10 worker leases.
+[  +98 ms] Received JVM installation metadata from '/Applications/Android Studio.app/Contents/jbr/Contents/Home': {JAVA_HOME=/Applications/Android Studio.app/Contents/jbr/Contents/Home, JAVA_VERSION=21.0.8, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.8+-14196175-b1038.72, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.8+-14196175-b1038.72, VM_VENDOR=JetBrains s.r.o., OS_ARCH=aarch64}
+[ +197 ms] Watching the file system is configured to be enabled if available
+[        ] Now considering [/Users/justin/Desktop/yanbridge/android] as hierarchies to watch
+[        ] File system watching is active
+[ +192 ms] [
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "16DB39C8-2025-4F90-BBFD-F877FBDF84EB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "4D2F88E9-1E50-4047-B070-4799F0B8CD5F",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,4",
+               "identifier" : "55543EC1-0495-458A-8762-006F7A1CC3DB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-plus-1",
+               "modelName" : "iPhone 16 Plus",
+               "name" : "iPhone 16 Plus",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "2.5 (22O473)",
+               "available" : true,
+               "platform" : "com.apple.platform.xrsimulator",
+               "modelCode" : "RealityDevice14,1",
+               "identifier" : "F819D49F-AE1D-4F09-A8F0-3AD97F742222",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.vision-pro",
+               "modelName" : "Apple Vision Pro (at 2732x2048)",
+               "name" : "Apple Vision Pro",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone17,1",
+               "simulator" : false,
+               "modelName" : "iPhone 16 Pro",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.0 (23A340)",
+               "identifier" : "00008140-00162D8A0E43801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone",
+               "modelUTI" : "com.apple.iphone-16-pro-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,3",
+               "identifier" : "E9D66426-FF4E-492F-9BAA-493247117689",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-1",
+               "modelName" : "iPhone 16",
+               "name" : "iPhone 16",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,13",
+               "identifier" : "AB2E3BCC-FADE-41A8-A07F-2482D86F7FEF",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (44mm) (2nd generation)",
+               "name" : "Apple Watch SE (44mm) (2nd generation)",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "Mac16,12",
+               "simulator" : false,
+               "modelName" : "MacBook Air",
+               "operatingSystemVersion" : "26.5 (25F71)",
+               "identifier" : "00008132-000A61E41439801C",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookair-13-2025"
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPad15,3",
+               "simulator" : false,
+               "modelName" : "iPad Air 11-inch (M3)",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPad",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2.1 (23C71)",
+               "identifier" : "00008122-00121084229A801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPad",
+               "modelUTI" : "com.apple.ipad-air-m3-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,2",
+               "identifier" : "5BE300C2-5629-431B-B1B2-9F084A1F3BFA",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-11-inch-m5-1",
+               "modelName" : "iPad Pro 11-inch (M5)",
+               "name" : "iPad Pro 11-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "888BC4BE-03A9-40DA-8EDC-3FF0499FA245",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,8",
+               "identifier" : "DF0844F1-DB1E-4BC9-999F-30C41F886489",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (42mm)",
+               "name" : "Apple Watch Series 10 (42mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,9",
+               "identifier" : "E6C0CB79-E5A9-4EC3-B2F5-3DE2FFD63C9E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (46mm)",
+               "name" : "Apple Watch Series 10 (46mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,3",
+               "identifier" : "A4788C54-E9B4-46B1-A239-9343351BF15D",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-2",
+               "modelName" : "iPhone 17",
+               "name" : "iPhone 17",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "EC7C39AE-1F2D-4507-AD24-EE71A2E63D33",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "37502B47-27DE-480A-BDE4-0BBC93ACBD99",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,1",
+               "identifier" : "E3944881-2D54-47E1-B3AB-1E4205426D3E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-1",
+               "modelName" : "iPhone 16 Pro",
+               "name" : "iPhone 16 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "68BB3ACF-B1E2-49DA-8AC5-D60F31338378",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "3F3AB5DE-2EDA-4AE8-84E1-3CACCA58247E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "79B4C8BD-BF6C-44B7-AFA2-320A397F5938",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,4",
+               "identifier" : "639B0612-BE33-45B0-A211-80A213E95867",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-13-inch-m5-1",
+               "modelName" : "iPad Pro 13-inch (M5)",
+               "name" : "iPad Pro 13-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,2",
+               "identifier" : "E2A3FDB4-2B29-4836-A5A4-82D68DA3A34C",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-max-2",
+               "modelName" : "iPhone 17 Pro Max",
+               "name" : "iPhone 17 Pro Max",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,6",
+               "identifier" : "1C63FC8B-21EE-4737-A919-5478AADFF580",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-13-1",
+               "modelName" : "iPad Pro 13-inch (M4)",
+               "name" : "iPad Pro 13-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,4",
+               "identifier" : "68E65D96-7C62-487C-AAAD-7389C143B6E9",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-1",
+               "modelName" : "iPad Pro 11-inch (M4)",
+               "name" : "iPad Pro 11-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,5",
+               "identifier" : "0498A1D8-8417-4382-93B9-34D5A00F93F3",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-u2-8",
+               "modelName" : "Apple Watch Ultra 2 (49mm)",
+               "name" : "Apple Watch Ultra 2 (49mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "F06BC98C-F4B6-4B05-8081-E7AD31C156C8",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "C6FACCE0-6256-4253-805E-DB2708F2B56B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,4",
+               "identifier" : "AFB47DC4-5134-4CFB-89DA-9F6DA00AF23B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-air-1",
+               "modelName" : "iPhone Air",
+               "name" : "iPhone Air",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "11E31A0B-CCFF-4691-95FC-F01C06220767",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,2",
+               "identifier" : "777C3A2D-9FAB-4BA4-B67E-B29FD9C71853",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-max-1",
+               "modelName" : "iPhone 16 Pro Max",
+               "name" : "iPhone 16 Pro Max",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone14,4",
+               "simulator" : false,
+               "modelName" : "iPhone 13 mini",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone13 mini",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2 (23C55)",
+               "identifier" : "00008110-00141059028B801E",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone13 mini",
+               "modelUTI" : "com.apple.iphone-13-mini-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,12",
+               "identifier" : "7F110C68-D873-461C-83A7-B91A09613CCD",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (40mm) (2nd generation)",
+               "name" : "Apple Watch SE (40mm) (2nd generation)",
+               "ignored" : false
+             }
+           ]
+[  +16 ms] executing: /usr/bin/arch -arm64e xcrun devicectl --version
+[  +86 ms] executing: /usr/bin/arch -arm64e xcrun devicectl list devices --timeout 5 --json-output /var/folders/yc/bpq9vf9x0fggcxj__b693y400000gn/T/flutter_tools.oI8biG/core_devices.WEOFD1/core_device_list.json
+[   +1 ms] Starting Build
+[  +75 ms] {
+             "info" : {
+               "arguments" : [
+                 "devicectl",
+                 "list",
+                 "devices",
+                 "--timeout",
+                 "5",
+                 "--json-output",
+                 "/var/folders/yc/bpq9vf9x0fggcxj__b693y400000gn/T/flutter_tools.oI8biG/core_devices.WEOFD1/core_device_list.json"
+               ],
+               "commandType" : "devicectl.list.devices",
+               "environment" : {
+                 "TERM" : "xterm-256color"
+               },
+               "jsonVersion" : 3,
+               "outcome" : "success",
+               "version" : "518.27"
+             },
+             "result" : {
+               "devices" : [
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "lastConnectionDate" : "2025-07-11T05:35:22.765Z",
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPad.coredevice.local",
+                       "6C3E7E26-DE32-5F65-B8F1-F6EF2A201A0B.coredevice.local",
+                       "00008122-00121084229A801C.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "bootedFromSnapshot" : true,
+                     "bootedSnapshotName" : "com.apple.os.update-6B9F363B672E7A3BD0BF4B36DE0B42F0A242E35227BD6B3D6D1A509FB1715153",
+                     "ddiServicesAvailable" : false,
+                     "developerModeStatus" : "enabled",
+                     "hasInternalOSBuild" : false,
+                     "name" : "Justin’s iPad",
+                     "osBuildUpdate" : "23C71",
+                     "osVersionNumber" : "26.2.1",
+                     "releaseType" : "Beta",
+                     "rootFileSystemIsWritable" : false
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPad",
+                     "ecid" : 5084709283069980,
+                     "hardwareModel" : "J607AP",
+                     "internalStorageCapacity" : 256000000000,
+                     "isProductionFused" : true,
+                     "marketingName" : "iPad Air 11-inch (M3)",
+                     "platform" : "iOS",
+                     "productType" : "iPad15,3",
+                     "reality" : "physical",
+                     "serialNumber" : "FGWM9GPH6G",
+                     "supportedCPUTypes" : [
+                       {
+                         "name" : "arm64e",
+                         "subType" : 2,
+                         "type" : 16777228
+                       },
+                       {
+                         "name" : "arm64",
+                         "subType" : 0,
+                         "type" : 16777228
+                       }
+                     ],
+                     "supportedDeviceFamilies" : [
+                       1,
+                       2
+                     ],
+                     "thinningProductType" : "iPad15,3",
+                     "udid" : "00008122-00121084229A801C"
+                   },
+                   "identifier" : "6C3E7E26-DE32-5F65-B8F1-F6EF2A201A0B",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 },
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPhone.coredevice.local",
+                       "FE14984C-0C3B-5131-BA7B-0EC5230F45B0.coredevice.local",
+                       "00008140-00162D8A0E43801C.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "ddiServicesAvailable" : false,
+                     "name" : "Justin’s iPhone",
+                     "osBuildUpdate" : "23A340",
+                     "osVersionNumber" : "26.0"
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPhone",
+                     "ecid" : 6242520455675932,
+                     "hardwareModel" : "D93AP",
+                     "platform" : "iOS",
+                     "productType" : "iPhone17,1",
+                     "supportedDeviceFamilies" : [
+                       1
+                     ],
+                     "udid" : "00008140-00162D8A0E43801C"
+                   },
+                   "identifier" : "FE14984C-0C3B-5131-BA7B-0EC5230F45B0",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 },
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "lastConnectionDate" : "2025-08-28T01:15:56.756Z",
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPhone13-mini.coredevice.local",
+                       "4982E366-777F-5744-A344-DA61CCF998D0.coredevice.local",
+                       "00008110-00141059028B801E.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "ddiServicesAvailable" : false,
+                     "developerModeStatus" : "disabled",
+                     "hasInternalOSBuild" : false,
+                     "name" : "Justin’s iPhone13 mini",
+                     "osBuildUpdate" : "23C55",
+                     "osVersionNumber" : "26.2",
+                     "releaseType" : "Beta"
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPhone",
+                     "ecid" : 5647474015043614,
+                     "hardwareModel" : "D16AP",
+                     "isProductionFused" : true,
+                     "marketingName" : "iPhone 13 mini",
+                     "platform" : "iOS",
+                     "productType" : "iPhone14,4",
+                     "reality" : "physical",
+                     "serialNumber" : "VWQ66Q67W3",
+                     "supportedCPUTypes" : [
+                       {
+                         "name" : "arm64e",
+                         "subType" : 2,
+                         "type" : 16777228
+                       },
+                       {
+                         "name" : "arm64",
+                         "subType" : 0,
+                         "type" : 16777228
+                       }
+                     ],
+                     "supportedDeviceFamilies" : [
+                       1
+                     ],
+                     "thinningProductType" : "iPhone14,4",
+                     "udid" : "00008110-00141059028B801E"
+                   },
+                   "identifier" : "4982E366-777F-5744-A344-DA61CCF998D0",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 }
+               ]
+             }
+           }
+
+[  +12 ms] Error: Browsing on the local area network for Justin’s iPhone. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[   +4 ms] Error: Browsing on the local area network for Justin’s iPad. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[   +1 ms] Error: Browsing on the local area network for Justin’s iPhone13 mini. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[ +132 ms] [
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "16DB39C8-2025-4F90-BBFD-F877FBDF84EB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "4D2F88E9-1E50-4047-B070-4799F0B8CD5F",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,4",
+               "identifier" : "55543EC1-0495-458A-8762-006F7A1CC3DB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-plus-1",
+               "modelName" : "iPhone 16 Plus",
+               "name" : "iPhone 16 Plus",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "2.5 (22O473)",
+               "available" : true,
+               "platform" : "com.apple.platform.xrsimulator",
+               "modelCode" : "RealityDevice14,1",
+               "identifier" : "F819D49F-AE1D-4F09-A8F0-3AD97F742222",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.vision-pro",
+               "modelName" : "Apple Vision Pro (at 2732x2048)",
+               "name" : "Apple Vision Pro",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone17,1",
+               "simulator" : false,
+               "modelName" : "iPhone 16 Pro",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.0 (23A340)",
+               "identifier" : "00008140-00162D8A0E43801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone",
+               "modelUTI" : "com.apple.iphone-16-pro-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,3",
+               "identifier" : "E9D66426-FF4E-492F-9BAA-493247117689",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-1",
+               "modelName" : "iPhone 16",
+               "name" : "iPhone 16",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,13",
+               "identifier" : "AB2E3BCC-FADE-41A8-A07F-2482D86F7FEF",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (44mm) (2nd generation)",
+               "name" : "Apple Watch SE (44mm) (2nd generation)",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "Mac16,12",
+               "simulator" : false,
+               "modelName" : "MacBook Air",
+               "operatingSystemVersion" : "26.5 (25F71)",
+               "identifier" : "00008132-000A61E41439801C",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookair-13-2025"
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPad15,3",
+               "simulator" : false,
+               "modelName" : "iPad Air 11-inch (M3)",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPad",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2.1 (23C71)",
+               "identifier" : "00008122-00121084229A801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPad",
+               "modelUTI" : "com.apple.ipad-air-m3-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,2",
+               "identifier" : "5BE300C2-5629-431B-B1B2-9F084A1F3BFA",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-11-inch-m5-1",
+               "modelName" : "iPad Pro 11-inch (M5)",
+               "name" : "iPad Pro 11-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "888BC4BE-03A9-40DA-8EDC-3FF0499FA245",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,8",
+               "identifier" : "DF0844F1-DB1E-4BC9-999F-30C41F886489",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (42mm)",
+               "name" : "Apple Watch Series 10 (42mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,9",
+               "identifier" : "E6C0CB79-E5A9-4EC3-B2F5-3DE2FFD63C9E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (46mm)",
+               "name" : "Apple Watch Series 10 (46mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,3",
+               "identifier" : "A4788C54-E9B4-46B1-A239-9343351BF15D",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-2",
+               "modelName" : "iPhone 17",
+               "name" : "iPhone 17",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "EC7C39AE-1F2D-4507-AD24-EE71A2E63D33",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "37502B47-27DE-480A-BDE4-0BBC93ACBD99",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,1",
+               "identifier" : "E3944881-2D54-47E1-B3AB-1E4205426D3E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-1",
+               "modelName" : "iPhone 16 Pro",
+               "name" : "iPhone 16 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "68BB3ACF-B1E2-49DA-8AC5-D60F31338378",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "3F3AB5DE-2EDA-4AE8-84E1-3CACCA58247E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "79B4C8BD-BF6C-44B7-AFA2-320A397F5938",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,4",
+               "identifier" : "639B0612-BE33-45B0-A211-80A213E95867",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-13-inch-m5-1",
+               "modelName" : "iPad Pro 13-inch (M5)",
+               "name" : "iPad Pro 13-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,2",
+               "identifier" : "E2A3FDB4-2B29-4836-A5A4-82D68DA3A34C",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-max-2",
+               "modelName" : "iPhone 17 Pro Max",
+               "name" : "iPhone 17 Pro Max",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,6",
+               "identifier" : "1C63FC8B-21EE-4737-A919-5478AADFF580",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-13-1",
+               "modelName" : "iPad Pro 13-inch (M4)",
+               "name" : "iPad Pro 13-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,4",
+               "identifier" : "68E65D96-7C62-487C-AAAD-7389C143B6E9",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-1",
+               "modelName" : "iPad Pro 11-inch (M4)",
+               "name" : "iPad Pro 11-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,5",
+               "identifier" : "0498A1D8-8417-4382-93B9-34D5A00F93F3",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-u2-8",
+               "modelName" : "Apple Watch Ultra 2 (49mm)",
+               "name" : "Apple Watch Ultra 2 (49mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "F06BC98C-F4B6-4B05-8081-E7AD31C156C8",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "C6FACCE0-6256-4253-805E-DB2708F2B56B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,4",
+               "identifier" : "AFB47DC4-5134-4CFB-89DA-9F6DA00AF23B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-air-1",
+               "modelName" : "iPhone Air",
+               "name" : "iPhone Air",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "11E31A0B-CCFF-4691-95FC-F01C06220767",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,2",
+               "identifier" : "777C3A2D-9FAB-4BA4-B67E-B29FD9C71853",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-max-1",
+               "modelName" : "iPhone 16 Pro Max",
+               "name" : "iPhone 16 Pro Max",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone14,4",
+               "simulator" : false,
+               "modelName" : "iPhone 13 mini",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone13 mini",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2 (23C55)",
+               "identifier" : "00008110-00141059028B801E",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone13 mini",
+               "modelUTI" : "com.apple.iphone-13-mini-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,12",
+               "identifier" : "7F110C68-D873-461C-83A7-B91A09613CCD",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (40mm) (2nd generation)",
+               "name" : "Apple Watch SE (40mm) (2nd generation)",
+               "ignored" : false
+             }
+           ]
+[   +4 ms] executing: /usr/bin/arch -arm64e xcrun devicectl list devices --timeout 5 --json-output /var/folders/yc/bpq9vf9x0fggcxj__b693y400000gn/T/flutter_tools.oI8biG/core_devices.4QOGaS/core_device_list.json
+[  +65 ms] {
+             "info" : {
+               "arguments" : [
+                 "devicectl",
+                 "list",
+                 "devices",
+                 "--timeout",
+                 "5",
+                 "--json-output",
+                 "/var/folders/yc/bpq9vf9x0fggcxj__b693y400000gn/T/flutter_tools.oI8biG/core_devices.4QOGaS/core_device_list.json"
+               ],
+               "commandType" : "devicectl.list.devices",
+               "environment" : {
+                 "TERM" : "xterm-256color"
+               },
+               "jsonVersion" : 3,
+               "outcome" : "success",
+               "version" : "518.27"
+             },
+             "result" : {
+               "devices" : [
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "lastConnectionDate" : "2025-07-11T05:35:22.765Z",
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPad.coredevice.local",
+                       "6C3E7E26-DE32-5F65-B8F1-F6EF2A201A0B.coredevice.local",
+                       "00008122-00121084229A801C.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "bootedFromSnapshot" : true,
+                     "bootedSnapshotName" : "com.apple.os.update-6B9F363B672E7A3BD0BF4B36DE0B42F0A242E35227BD6B3D6D1A509FB1715153",
+                     "ddiServicesAvailable" : false,
+                     "developerModeStatus" : "enabled",
+                     "hasInternalOSBuild" : false,
+                     "name" : "Justin’s iPad",
+                     "osBuildUpdate" : "23C71",
+                     "osVersionNumber" : "26.2.1",
+                     "releaseType" : "Beta",
+                     "rootFileSystemIsWritable" : false
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPad",
+                     "ecid" : 5084709283069980,
+                     "hardwareModel" : "J607AP",
+                     "internalStorageCapacity" : 256000000000,
+                     "isProductionFused" : true,
+                     "marketingName" : "iPad Air 11-inch (M3)",
+                     "platform" : "iOS",
+                     "productType" : "iPad15,3",
+                     "reality" : "physical",
+                     "serialNumber" : "FGWM9GPH6G",
+                     "supportedCPUTypes" : [
+                       {
+                         "name" : "arm64e",
+                         "subType" : 2,
+                         "type" : 16777228
+                       },
+                       {
+                         "name" : "arm64",
+                         "subType" : 0,
+                         "type" : 16777228
+                       }
+                     ],
+                     "supportedDeviceFamilies" : [
+                       1,
+                       2
+                     ],
+                     "thinningProductType" : "iPad15,3",
+                     "udid" : "00008122-00121084229A801C"
+                   },
+                   "identifier" : "6C3E7E26-DE32-5F65-B8F1-F6EF2A201A0B",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 },
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPhone.coredevice.local",
+                       "FE14984C-0C3B-5131-BA7B-0EC5230F45B0.coredevice.local",
+                       "00008140-00162D8A0E43801C.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "ddiServicesAvailable" : false,
+                     "name" : "Justin’s iPhone",
+                     "osBuildUpdate" : "23A340",
+                     "osVersionNumber" : "26.0"
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPhone",
+                     "ecid" : 6242520455675932,
+                     "hardwareModel" : "D93AP",
+                     "platform" : "iOS",
+                     "productType" : "iPhone17,1",
+                     "supportedDeviceFamilies" : [
+                       1
+                     ],
+                     "udid" : "00008140-00162D8A0E43801C"
+                   },
+                   "identifier" : "FE14984C-0C3B-5131-BA7B-0EC5230F45B0",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 },
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "lastConnectionDate" : "2025-08-28T01:15:56.756Z",
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "Justins-iPhone13-mini.coredevice.local",
+                       "4982E366-777F-5744-A344-DA61CCF998D0.coredevice.local",
+                       "00008110-00141059028B801E.coredevice.local"
+                     ],
+                     "tunnelState" : "unavailable"
+                   },
+                   "deviceProperties" : {
+                     "ddiServicesAvailable" : false,
+                     "developerModeStatus" : "disabled",
+                     "hasInternalOSBuild" : false,
+                     "name" : "Justin’s iPhone13 mini",
+                     "osBuildUpdate" : "23C55",
+                     "osVersionNumber" : "26.2",
+                     "releaseType" : "Beta"
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPhone",
+                     "ecid" : 5647474015043614,
+                     "hardwareModel" : "D16AP",
+                     "isProductionFused" : true,
+                     "marketingName" : "iPhone 13 mini",
+                     "platform" : "iOS",
+                     "productType" : "iPhone14,4",
+                     "reality" : "physical",
+                     "serialNumber" : "VWQ66Q67W3",
+                     "supportedCPUTypes" : [
+                       {
+                         "name" : "arm64e",
+                         "subType" : 2,
+                         "type" : 16777228
+                       },
+                       {
+                         "name" : "arm64",
+                         "subType" : 0,
+                         "type" : 16777228
+                       }
+                     ],
+                     "supportedDeviceFamilies" : [
+                       1
+                     ],
+                     "thinningProductType" : "iPhone14,4",
+                     "udid" : "00008110-00141059028B801E"
+                   },
+                   "identifier" : "4982E366-777F-5744-A344-DA61CCF998D0",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 }
+               ]
+             }
+           }
+
+[   +2 ms] Error: Browsing on the local area network for Justin’s iPhone. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[        ] Error: Browsing on the local area network for Justin’s iPad. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[        ] Error: Browsing on the local area network for Justin’s iPhone13 mini. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
+           The device must be opted into Developer Mode to connect wirelessly. (code -27)
+[   +5 ms] Now considering [/Users/justin/development/flutter/packages/flutter_tools/gradle, /Users/justin/Desktop/yanbridge/android] as hierarchies to watch
+[+2097 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/Users/justin/development/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[ +489 ms] [
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "16DB39C8-2025-4F90-BBFD-F877FBDF84EB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "4D2F88E9-1E50-4047-B070-4799F0B8CD5F",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,4",
+               "identifier" : "55543EC1-0495-458A-8762-006F7A1CC3DB",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-plus-1",
+               "modelName" : "iPhone 16 Plus",
+               "name" : "iPhone 16 Plus",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "2.5 (22O473)",
+               "available" : true,
+               "platform" : "com.apple.platform.xrsimulator",
+               "modelCode" : "RealityDevice14,1",
+               "identifier" : "F819D49F-AE1D-4F09-A8F0-3AD97F742222",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.vision-pro",
+               "modelName" : "Apple Vision Pro (at 2732x2048)",
+               "name" : "Apple Vision Pro",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone17,1",
+               "simulator" : false,
+               "modelName" : "iPhone 16 Pro",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.0 (23A340)",
+               "identifier" : "00008140-00162D8A0E43801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone",
+               "modelUTI" : "com.apple.iphone-16-pro-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,3",
+               "identifier" : "E9D66426-FF4E-492F-9BAA-493247117689",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-1",
+               "modelName" : "iPhone 16",
+               "name" : "iPhone 16",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,13",
+               "identifier" : "AB2E3BCC-FADE-41A8-A07F-2482D86F7FEF",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (44mm) (2nd generation)",
+               "name" : "Apple Watch SE (44mm) (2nd generation)",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "Mac16,12",
+               "simulator" : false,
+               "modelName" : "MacBook Air",
+               "operatingSystemVersion" : "26.5 (25F71)",
+               "identifier" : "00008132-000A61E41439801C",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookair-13-2025"
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPad15,3",
+               "simulator" : false,
+               "modelName" : "iPad Air 11-inch (M3)",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPad",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2.1 (23C71)",
+               "identifier" : "00008122-00121084229A801C",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPad",
+               "modelUTI" : "com.apple.ipad-air-m3-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,2",
+               "identifier" : "5BE300C2-5629-431B-B1B2-9F084A1F3BFA",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-11-inch-m5-1",
+               "modelName" : "iPad Pro 11-inch (M5)",
+               "name" : "iPad Pro 11-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "888BC4BE-03A9-40DA-8EDC-3FF0499FA245",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,8",
+               "identifier" : "DF0844F1-DB1E-4BC9-999F-30C41F886489",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (42mm)",
+               "name" : "Apple Watch Series 10 (42mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,9",
+               "identifier" : "E6C0CB79-E5A9-4EC3-B2F5-3DE2FFD63C9E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-series10-4",
+               "modelName" : "Apple Watch Series 10 (46mm)",
+               "name" : "Apple Watch Series 10 (46mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,3",
+               "identifier" : "A4788C54-E9B4-46B1-A239-9343351BF15D",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-2",
+               "modelName" : "iPhone 17",
+               "name" : "iPhone 17",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,5",
+               "identifier" : "EC7C39AE-1F2D-4507-AD24-EE71A2E63D33",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-e-1",
+               "modelName" : "iPhone 16e",
+               "name" : "iPhone 16e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "37502B47-27DE-480A-BDE4-0BBC93ACBD99",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,1",
+               "identifier" : "E3944881-2D54-47E1-B3AB-1E4205426D3E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-1",
+               "modelName" : "iPhone 16 Pro",
+               "name" : "iPhone 16 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "68BB3ACF-B1E2-49DA-8AC5-D60F31338378",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,5",
+               "identifier" : "3F3AB5DE-2EDA-4AE8-84E1-3CACCA58247E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-13-1",
+               "modelName" : "iPad Air 13-inch (M3)",
+               "name" : "iPad Air 13-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,3",
+               "identifier" : "79B4C8BD-BF6C-44B7-AFA2-320A397F5938",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-air-m3-1",
+               "modelName" : "iPad Air 11-inch (M3)",
+               "name" : "iPad Air 11-inch (M3)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,4",
+               "identifier" : "639B0612-BE33-45B0-A211-80A213E95867",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-13-inch-m5-1",
+               "modelName" : "iPad Pro 13-inch (M5)",
+               "name" : "iPad Pro 13-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,2",
+               "identifier" : "E2A3FDB4-2B29-4836-A5A4-82D68DA3A34C",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-max-2",
+               "modelName" : "iPhone 17 Pro Max",
+               "name" : "iPhone 17 Pro Max",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,6",
+               "identifier" : "1C63FC8B-21EE-4737-A919-5478AADFF580",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-13-1",
+               "modelName" : "iPad Pro 13-inch (M4)",
+               "name" : "iPad Pro 13-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,4",
+               "identifier" : "68E65D96-7C62-487C-AAAD-7389C143B6E9",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-pro-m4-1",
+               "modelName" : "iPad Pro 11-inch (M4)",
+               "name" : "iPad Pro 11-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch7,5",
+               "identifier" : "0498A1D8-8417-4382-93B9-34D5A00F93F3",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-u2-8",
+               "modelName" : "Apple Watch Ultra 2 (49mm)",
+               "name" : "Apple Watch Ultra 2 (49mm)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "F06BC98C-F4B6-4B05-8081-E7AD31C156C8",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "C6FACCE0-6256-4253-805E-DB2708F2B56B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,4",
+               "identifier" : "AFB47DC4-5134-4CFB-89DA-9F6DA00AF23B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-air-1",
+               "modelName" : "iPhone Air",
+               "name" : "iPhone Air",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.2 (23C54)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "11E31A0B-CCFF-4691-95FC-F01C06220767",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "18.5 (22F77)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone17,2",
+               "identifier" : "777C3A2D-9FAB-4BA4-B67E-B29FD9C71853",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.iphone-16-pro-max-1",
+               "modelName" : "iPhone 16 Pro Max",
+               "name" : "iPhone 16 Pro Max",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone14,4",
+               "simulator" : false,
+               "modelName" : "iPhone 13 mini",
+               "error" : {
+                 "code" : -27,
+                 "failureReason" : "",
+                 "description" : "Browsing on the local area network for Justin’s iPhone13 mini",
+                 "recoverySuggestion" : "Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.\nThe device must be opted into Developer Mode to connect wirelessly.",
+                 "domain" : "com.apple.dt.deviceprep"
+               },
+               "operatingSystemVersion" : "26.2 (23C55)",
+               "identifier" : "00008110-00141059028B801E",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : false,
+               "name" : "Justin’s iPhone13 mini",
+               "modelUTI" : "com.apple.iphone-13-mini-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "11.5 (22T572)",
+               "available" : true,
+               "platform" : "com.apple.platform.watchsimulator",
+               "modelCode" : "Watch6,12",
+               "identifier" : "7F110C68-D873-461C-83A7-B91A09613CCD",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.watch-se-2nd-1",
+               "modelName" : "Apple Watch SE (40mm) (2nd generation)",
+               "name" : "Apple Watch SE (40mm) (2nd generation)",
+               "ignored" : false
+             }
+           ]
+[+2114 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.0.21/kotlin-compiler-embeddable-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download10463941960500523704bin
+[+182106 ms] Downloading https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.0.21/kotlin-compiler-embeddable-2.0.21.jar to /Users/justin/.gradle/.tmp/gradle_download15687778549673592538bin

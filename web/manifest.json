@@ -1,0 +1,11 @@
+{
+    "name": "YanBridge Realtime ASR",
+    "short_name": "YanBridge",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#121212",
+    "description": "YanBridge Realtime ASR",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
